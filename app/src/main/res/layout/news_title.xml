@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="?android:attr/selectableItemBackground"
+    android:orientation="vertical"
+    android:paddingHorizontal="16dp"
+    android:paddingBottom="16dp">
+
+    <TextView
+        android:id="@+id/news_timestamp"
+        android:layout_width="wrap_content"
+        android:layout_height="24dp"
+        android:gravity="bottom"
+        android:textAlignment="gravity"
+
+        android:textAppearance="@style/TextAppearance.MaterialComponents.Overline"
+        tools:text="28.03.2020 10:32" />
+
+    <TextView
+        android:id="@+id/news_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:gravity="bottom"
+        android:textAlignment="gravity"
+        android:textAppearance="@style/TextAppearance.MaterialComponents.Subtitle1"
+        tools:text="COVID-19 brings humankind to its end" />
+
+</LinearLayout>
